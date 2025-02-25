@@ -1,0 +1,2 @@
+h = float(input('qual sua altura em metros? '))
+print(f'sua altura é de \n {h/1000} quilômetros \n {h/100} hectômetros \n {h/10} decâmetros \n {h*10} decímetros \n {h*100} centímetros \n {h*1000} milímetros')

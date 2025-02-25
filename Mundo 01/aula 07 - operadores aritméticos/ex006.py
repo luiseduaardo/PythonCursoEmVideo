@@ -1,0 +1,2 @@
+x = int(input('me diga um número qualquer '))
+print(f'algumas informações sobre o número \033[4;36m{x}\033[m: \n dobro: \033[7;44m {x*2} \033[m \n triplo: \033[7;44m {x*3} \033[m \n raiz quadrada: \033[7;44m {x**(1/2):.2f} \033[m')

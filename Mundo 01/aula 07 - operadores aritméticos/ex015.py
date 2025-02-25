@@ -1,0 +1,5 @@
+dias = int(input('quantos dias esse carro foi alugado? '))
+km = float(input('quantos quilômetros esse carro rodou no total? '))
+total = (dias*60) + (km*0.15)
+#print(f'o total gasto foi de R${(dias*60)+(km*0.15):.2f}')
+print(f'o total gasto foi de R${total:.2f}')
